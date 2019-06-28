@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		92016C5522C598F50050CFA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92016C5422C598F50050CFA6 /* AppDelegate.swift */; };
 		92016C5722C598F50050CFA6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92016C5622C598F50050CFA6 /* SceneDelegate.swift */; };
-		92016C5922C598F50050CFA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92016C5822C598F50050CFA6 /* ContentView.swift */; };
+		92016C5922C598F50050CFA6 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92016C5822C598F50050CFA6 /* PlayerView.swift */; };
 		92016C5B22C598F70050CFA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92016C5A22C598F70050CFA6 /* Assets.xcassets */; };
 		92016C5E22C598F70050CFA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92016C5D22C598F70050CFA6 /* Preview Assets.xcassets */; };
 		92016C6122C598F70050CFA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92016C5F22C598F70050CFA6 /* LaunchScreen.storyboard */; };
+		92016C6922C59A5B0050CFA6 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92016C6822C59A5B0050CFA6 /* Player.swift */; };
+		92016C6B22C5A1B60050CFA6 /* StatText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92016C6A22C5A1B60050CFA6 /* StatText.swift */; };
+		92016C6D22C5A66B0050CFA6 /* PlayerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92016C6C22C5A66B0050CFA6 /* PlayerRow.swift */; };
+		92016C6F22C5A9AB0050CFA6 /* PlayerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92016C6E22C5A9AB0050CFA6 /* PlayerList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		92016C5122C598F50050CFA6 /* NBA Players.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NBA Players.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92016C5422C598F50050CFA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92016C5622C598F50050CFA6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		92016C5822C598F50050CFA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		92016C5822C598F50050CFA6 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		92016C5A22C598F70050CFA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92016C5D22C598F70050CFA6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		92016C6022C598F70050CFA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92016C6222C598F70050CFA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92016C6822C59A5B0050CFA6 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		92016C6A22C5A1B60050CFA6 /* StatText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatText.swift; sourceTree = "<group>"; };
+		92016C6C22C5A66B0050CFA6 /* PlayerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerRow.swift; sourceTree = "<group>"; };
+		92016C6E22C5A9AB0050CFA6 /* PlayerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +64,17 @@
 		92016C5322C598F50050CFA6 /* NBA Players */ = {
 			isa = PBXGroup;
 			children = (
+				92016C6822C59A5B0050CFA6 /* Player.swift */,
 				92016C5422C598F50050CFA6 /* AppDelegate.swift */,
 				92016C5622C598F50050CFA6 /* SceneDelegate.swift */,
-				92016C5822C598F50050CFA6 /* ContentView.swift */,
+				92016C5822C598F50050CFA6 /* PlayerView.swift */,
 				92016C5A22C598F70050CFA6 /* Assets.xcassets */,
 				92016C5F22C598F70050CFA6 /* LaunchScreen.storyboard */,
 				92016C6222C598F70050CFA6 /* Info.plist */,
 				92016C5C22C598F70050CFA6 /* Preview Content */,
+				92016C6A22C5A1B60050CFA6 /* StatText.swift */,
+				92016C6C22C5A66B0050CFA6 /* PlayerRow.swift */,
+				92016C6E22C5A9AB0050CFA6 /* PlayerList.swift */,
 			);
 			path = "NBA Players";
 			sourceTree = "<group>";
@@ -146,9 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92016C6922C59A5B0050CFA6 /* Player.swift in Sources */,
 				92016C5522C598F50050CFA6 /* AppDelegate.swift in Sources */,
 				92016C5722C598F50050CFA6 /* SceneDelegate.swift in Sources */,
-				92016C5922C598F50050CFA6 /* ContentView.swift in Sources */,
+				92016C5922C598F50050CFA6 /* PlayerView.swift in Sources */,
+				92016C6B22C5A1B60050CFA6 /* StatText.swift in Sources */,
+				92016C6F22C5A9AB0050CFA6 /* PlayerList.swift in Sources */,
+				92016C6D22C5A66B0050CFA6 /* PlayerRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
